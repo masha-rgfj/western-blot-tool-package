@@ -1,0 +1,62 @@
+Makes annotated (molecular weights, protein names) Western blot figures from pre-rotated gel images.
+
+
+
+Requires:
+
+PySide6
+
+Pillow
+
+
+
+\[How to use]
+
+-Load tiff/tif/jpeg/png image (File -> Open Image)
+
+-To create molecular weight annotation:
+
+Tools(Image) -> Mark kDa Bands
+
+Click on the band. A window dialogue will appear to enter kDa value. Any number of bands can be marked. If necessary, they can be cleared (Undo Last kDa or Clear All kDa).
+
+-To create a figure:
+
+Tools(Image) -> Crop Region, Add to Figure
+
+Drag\&Drop to select desired area.
+
+-To format the figure:
+
+Click on one of the crops on the figure. You can set width (Figure -> Set Width) or increase/decrease it by 10% with "\[" and "]" keys.
+
+-Load another gel image to add it below.
+
+
+
+\[Install]
+
+python -m venv .venv
+
+\# activate
+
+pip install -U pip
+
+pip install wbtool
+
+wbtool
+
+
+
+\## Citation
+
+
+
+If you use WBTool in published research, please cite:
+
+
+
+Masha (RGFJ). \*WBTool: A GUI tool for annotating and assembling Western blot figures\* (2026).
+
+GitHub repository: https://github.com/masha-rgfj/western-blot-tool
+

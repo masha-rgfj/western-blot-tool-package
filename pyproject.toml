@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wbtool"
+version = "0.0.1"
+authors = [{name = "RGFJ", email = "pirozhkova@mail.tau.ac.il"}]
+description = "Annotation of western blot images"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+dependencies = [
+  "pyside6"
+]
+
+[project.scripts]
+wbtool = "wbtool_package.wbtool:main"
+
+[project.urls]
+Homepage = "https://github.com/masha-rgfj/western-blot-tool"
+Issues = "https://github.com/masha-rgfj/western-blot-tool/issues"
