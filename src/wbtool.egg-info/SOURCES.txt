@@ -4,8 +4,11 @@ pyproject.toml
 src/wbtool.egg-info/PKG-INFO
 src/wbtool.egg-info/SOURCES.txt
 src/wbtool.egg-info/dependency_links.txt
+src/wbtool.egg-info/entry_points.txt
 src/wbtool.egg-info/requires.txt
 src/wbtool.egg-info/top_level.txt
 src/wbtool_package/__init__.py
 src/wbtool_package/wbtool.py
 src/wbtool_package/data/__init__.py
+src/wbtool_package/data/loading control.jpg
+src/wbtool_package/data/protein of interest.tif

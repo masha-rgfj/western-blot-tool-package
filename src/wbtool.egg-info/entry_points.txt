@@ -1,0 +1,2 @@
+[console_scripts]
+wbtool = wbtool_package.wbtool:main
