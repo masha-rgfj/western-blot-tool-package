@@ -192,7 +192,7 @@ class MainWindow(QMainWindow):
         self.image_scene.clear()
         self.kda_markers.clear()
         self.pixmap_item = None
-        W, H = 900, 650
+        W, H = 700, 650
         self.image_scene.setSceneRect(0, 0, W, H)
         #startup text
         html = """
@@ -318,9 +318,13 @@ class MainWindow(QMainWindow):
         #adds the cropped area with ticks and annotation to the figure
         #code-wise: creates the bandgroup; all items are children -> move together
         
-
+        #adjusting width
+        view_w = self.figure_view.viewport().width()
+        max_band_w = max(50, view_w - self.figure_left_margin - 100)  # 200 = room for protein name etc.
+        
         # default width = last band's width (if any)
         target_w = int(self.last_band_width) if self.last_band_width else pixmap.width()
+        target_w = min(target_w, max_band_w) #in case the image is too big
         scaled_pm = pixmap.scaledToWidth(target_w, Qt.SmoothTransformation)
         scale = target_w / pixmap.width()   # uniform scale (height scales by same factor)
         
