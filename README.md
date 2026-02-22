@@ -3,7 +3,9 @@ Makes annotated (molecular weights, protein names) Western blot figures from pre
 
 
 Requires:
+
 Python>=3.10
+
 PySide6 (the dependency is installed with pip automatically)
 
 
@@ -78,5 +80,6 @@ If you use WBTool in published research, please cite:
 Masha (RGFJ). \*WBTool: A GUI tool for annotating and assembling Western blot figures\* (2026).
 
 GitHub repository: https://github.com/masha-rgfj/western-blot-tool-package
+
 
 
