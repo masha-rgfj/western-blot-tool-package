@@ -11,6 +11,9 @@ PySide6 (the dependency is installed with pip automatically)
 
 \[How to use]
 
+https://github.com/user-attachments/assets/6898f4a9-a5b1-4ea6-963c-7ad733fdd58b
+
+
 -Load pre-rotated tiff/tif/jpeg/png image (File -> Open Image)
 
 -To create molecular weight annotation:
@@ -80,6 +83,7 @@ If you use WBTool in published research, please cite:
 Masha (RGFJ). \*WBTool: A GUI tool for annotating and assembling Western blot figures\* (2026).
 
 GitHub repository: https://github.com/masha-rgfj/western-blot-tool-package
+
 
 
 
