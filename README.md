@@ -43,12 +43,12 @@ Figure -> Export to pdf.
 
 
 \[Use as a script]
-wbtool.py in scripts folder. 
+wbtool.py in the scripts folder. 
 Several versions are available:
 
-wbtool_samplenames.py - allows to add lanes annotation above the gel 
+wbtool_samplenames.py - allows adding lanes annotation above the gel 
 
-wbtool_vertical.py - optimized for vertical stripes (stackes gel crops horizontally)
+wbtool_vertical.py - optimized for vertical stripes (stacks gel crops horizontally)
 
 
 
@@ -78,4 +78,5 @@ If you use WBTool in published research, please cite:
 Masha (RGFJ). \*WBTool: A GUI tool for annotating and assembling Western blot figures\* (2026).
 
 GitHub repository: https://github.com/masha-rgfj/western-blot-tool-package
+
 
