@@ -3,9 +3,7 @@ Makes annotated (molecular weights, protein names) Western blot figures from pre
 
 
 Requires:
-
 Python>=3.10
-
 PySide6 (the dependency is installed with pip automatically)
 
 
@@ -25,14 +23,14 @@ If necessary, they can be cleared (Undo Last kDa or Clear All kDa).
 
 Tools(Image) -> Crop Region, Add to Figure
 
-Drag\&Drop to select the desired area.
+Drag\&Drop to select desired area.
 A window dialogue will appear to enter the protein name (or the crop name).
 
 -To format the figure:
 
 Click on one of the crops on the figure. 
-You can set the width (Figure -> Set Width) or increase/decrease it by 10% with "\[" and "]" keys.
-You can move the crops with the up/down arrows.
+You can set width (Figure -> Set Width) or increase/decrease it by 10% with "\[" and "]" keys.
+You can move the crops with up/down arrows.
 
 -Load another gel image to add it below.
 
@@ -42,6 +40,15 @@ Any number of images can be added.
 -To export to pdf:
 
 Figure -> Export to pdf.
+
+
+\[Use as a script]
+wbtool.py in scripts folder. 
+Several versions are available:
+
+wbtool_samplenames.py - allows to add lanes annotation above the gel 
+
+wbtool_vertical.py - optimized for vertical stripes (stackes gel crops horizontally)
 
 
 
@@ -59,6 +66,7 @@ wbtool
 
 
 
+
 \## Citation
 
 
@@ -69,6 +77,5 @@ If you use WBTool in published research, please cite:
 
 Masha (RGFJ). \*WBTool: A GUI tool for annotating and assembling Western blot figures\* (2026).
 
-GitHub repository: https://github.com/masha-rgfj/western-blot-tool
-
+GitHub repository: https://github.com/masha-rgfj/western-blot-tool-package
 
